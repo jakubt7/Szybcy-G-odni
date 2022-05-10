@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast&Hungry</title>
+    <link rel="shortcut icon" href="./images/f1.png">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mcdolecss.css">
+    <link rel="stylesheet" href="userlogincss.css">
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Montserrat:wght@200;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="navbar">
+            <a href="./index.html" class="logo"><img src="./images/logo.png" alt="A beautiful logo"></a>
+
+            <nav>
+                <ul>
+                    <li><a class="navLink" href="./index.html">Strona Główna</a></li>
+                    <li><a class="navLink" href="./order.html">Zamów coś</a></li>
+                    <li><a class="navLink" href="./mojezamowienia">Moje zamówienia</a></li>
+                    <li><a class="navLink" href="./userlogin.html">Zaloguj się</a></li>
+                    </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="loginbox">
+            <img src="./images/chef.png" class = "loginphoto">
+            <form>
+                <p>Login</p>
+                <input type = "Login" name = "login" placeholder = "Podaj login">
+                <p>Hasło</p>
+                <input type = "password" name = "haslo" placeholder = "Podaj hasło">
+                <input type = "submit" name = "submit">
+                <a href="#">Zapomniałeś hasła?</a><br>
+                <a href="#">Nie masz konta?</a>
+            </form>
+        </div>
+        <div class="arrowUp">
+            <img src = "./images/arrow-up.svg" alt="arrow" />
+        </div>
+    </main>
+
+    <div class="footer">
+        <p>&copy2022 Jakub Tomaszewski</p>
+        <a href="./index.html">Kontakt</a>
+        <a href="./index.html">O nas</a>
+        <a href="./index.html">Regulamin</a>
+      </div>
+      <script type="module" src = "./index.js"></script>
+</body>
+
+</html>
